@@ -169,7 +169,17 @@ body {
   position: relative;
   z-index: 10;
 }
+/* LINK DO RODAPÉ */
+.footer a {
+  color: #F5E6A8; /* amarelo pastel */
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
 
+.footer a:hover {
+  color: #EAD37A; /* hover suave */
+}
 .footer-content {
   display: flex;
   align-items: center;
@@ -184,3 +194,4 @@ body {
   color: rgba(255, 255, 255, 0.7);
   transform: rotate(45deg);
 }
+
